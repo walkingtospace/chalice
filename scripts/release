@@ -50,7 +50,7 @@ def bump_version(version_number):
                     contents)
             with open(filename, 'w') as f:
                 f.write(new_contents)
-
+    print("Print at the end of file")
 
 def _create_new_changelog_release():
     # This takes everything from .changes/next-release/ and creates
